@@ -1000,6 +1000,9 @@ input[type="range"]::-ms-fill-lower {
 .cursor-pointer {
   cursor: pointer;
 }
+.grid-cols-moarefi {
+  grid-template-columns: repeat(auto-fit , minmax(120px , 1fr));
+}
 .grid-cols-shegeftangiz {
   grid-template-columns: repeat(auto-fit , minmax(270px , 1fr));
 }
@@ -1191,84 +1194,66 @@ input[type="range"]::-ms-fill-lower {
   padding-left: 4rem;
   padding-right: 4rem;
 }
-
 .placeholder\:-translate-x-9::-moz-placeholder {
   --tw-translate-x: -2.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .placeholder\:-translate-x-9::placeholder {
   --tw-translate-x: -2.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .placeholder\:text-lg::-moz-placeholder {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-
 .placeholder\:text-lg::placeholder {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-
 .placeholder\:font-bold::-moz-placeholder {
   font-weight: 700;
 }
-
 .placeholder\:font-bold::placeholder {
   font-weight: 700;
 }
-
 .placeholder\:text-slate-900\/45::-moz-placeholder {
   color: rgb(15 23 42 / 0.45);
 }
-
 .placeholder\:text-slate-900\/45::placeholder {
   color: rgb(15 23 42 / 0.45);
 }
-
 .hover\:scale-\[1\.014\]:hover {
   --tw-scale-x: 1.014;
   --tw-scale-y: 1.014;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-
 .hover\:bg-neutral-300\/40:hover {
   background-color: rgb(212 212 212 / 0.4);
 }
-
 .hover\:text-emerald-500:hover {
   --tw-text-opacity: 1;
   color: rgb(16 185 129 / var(--tw-text-opacity, 1));
 }
-
 .hover\:outline-1:hover {
   outline-width: 1px;
 }
-
 .hover\:outline-green-700:hover {
   outline-color: #15803d;
 }
-
 .hover\:placeholder\:text-gray-500:hover::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
-
 .hover\:placeholder\:text-gray-500:hover::placeholder {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
-
 .group:hover .group-hover\:block {
   display: block;
 }
-
 .group:hover .group-hover\:w-full {
   width: 100%;
 }
-
 @media (min-width: 992px) {
 
   .lg\:right-16 {
