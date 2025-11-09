@@ -1,9 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer utilities{
-    .container-fluid{
+@layer utilities {
+    .container-fluid {
         @apply w-full px-16
     }
 }
